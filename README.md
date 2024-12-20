@@ -1,9 +1,9 @@
 # AltSchool-Exam-Project
 In this project, I practically demonstrated, with well detailed steps how to provision a linux server and deploy a web application.
 
-Documentation: Provisioning a Linux Server and Deploying a Web Application
+# Documentation: Provisioning a Linux Server and Deploying a Web Application
 
-Student Information:
+**Student Information:**
 
 Name: Favour Onyeneke
 
