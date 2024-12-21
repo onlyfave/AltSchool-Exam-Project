@@ -90,28 +90,34 @@ Access the default Apache page by visiting http://44.203.122.163 in a browser.
 
 Steps:
 1. Deploying the GitHub Project Files
- Created a project directory:
- mkdir AltSchool project  
- cd AltSchool project
+   Created a project directory:
+   mkdir AltSchool project  
+   cd AltSchool project
 
 3. Downloaded the project files from GitHub:
-wget https://github.com/onlyfave/AltSchool-Project.git/main.zip
-
+  wget https://github.com/onlyfave/AltSchool-Project.git/main.zip
+  ls -lrt
+  Copy and install the github project link:
+  https://github.com/onlyfave/AltSchool-Project/archive/refs/heads/main.zip
+  ls -lrt
 
 3. Installed unzip and extracted the files:
    
-apt install unzip  
-unzip main.zip
+  apt install unzip  
+  unzip main.zip
+  ls -lrt
 
 5. Moved the files to Apache’s root directory:
    
-cd Alt-School-Project.git-main  
-mv * /var/www/html/  
-cd /var/www/html/  
-ls -lrt
+  cd Alt-School-Project.git-main  
+  mv * /var/www/html/  
+  cd /var/www/html/  
+  ls -lrt
 
 7. Restarted Apache to reflect changes:
-systemctl restart apache2
+   systemctl restart apache2
+   systemctl enable apache2
+   systemctl start apache2
 
 
 
@@ -125,7 +131,7 @@ Ensure the security group allows inbound traffic on port 80 (HTTP).
 Share the public IP address (or URL if a domain is configured) to access the page from any browser.
 
 
-5. Bonus Task: Configure HTTPS (Optional)
+# 5. Bonus Task: Configure HTTPS (Optional)
 Steps:
 Install Certbot:
 Run the following commands to install Certbot for Apache:
