@@ -3,15 +3,13 @@ In this project, I practically demonstrated, with well detailed steps how to pro
 
 # Documentation: Provisioning a Linux Server and Deploying a Web Application
 
-**Student Information:**
+**Name:** Favour Onyeneke
 
-Name: Favour Onyeneke
+**School ID:** ALT/SOE/024/0497
 
-School ID: ALT/SOE/024/0497
+**Track:** Cloud Engineering
 
-Track: Cloud Engineering
-
-School: AltSchool Africa Karatu '24
+**School:** AltSchool Africa Karatu '24
 
 Project Overview
 This document details the step-by-step process of provisioning an AWS EC2 server, installing and configuring an Apache web server, deploying an HTML project from GitHub, and securing the website (onlyfav.me) using AWS Certificate Manager (ACM) and Certbot for SSL/HTTPS.
@@ -23,7 +21,7 @@ The goal of this project is to provision a server, set up a web server, deploy a
 
 Step-by-Step Documentation
 
-**1. Provisioning the Server**
+#1. Provisioning the Server
 
 Steps:
 Choose a Cloud Provider or Virtualization Platform:
