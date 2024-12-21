@@ -51,7 +51,7 @@ Run the following command to connect to the server:
 ![Screenshot 2024-12-19 195857](https://github.com/user-attachments/assets/d8f9be98-574a-49b8-b94e-0f5652f2ff04)
 
 
-**2. Web Server Setup**
+# 2. Web Server Setup
 
 Steps:
 
@@ -84,7 +84,7 @@ Verify Apache Installation:
 
 Access the default Apache page by visiting http://44.203.122.163 in a browser.
 
-**3. HTML Page Deployment**
+# 3. HTML Page Deployment
 
 Steps:
 1. Deploying the GitHub Project Files
@@ -111,7 +111,7 @@ systemctl restart apache2
 
 
 
-**4. Networking Configuration**
+# 4. Networking Configuration
 
 Steps:
 1. Allow HTTP Traffic:
