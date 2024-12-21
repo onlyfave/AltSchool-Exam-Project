@@ -11,7 +11,7 @@ In this project, I practically demonstrated, with well detailed steps how to pro
 
 **School:** AltSchool Africa Karatu '24
 
-Project Overview
+**Project Overview**
 This document details the step-by-step process of provisioning an AWS EC2 server, installing and configuring an Apache web server, deploying an HTML project from GitHub, and securing the website (onlyfav.me) using AWS Certificate Manager (ACM) and Certbot for SSL/HTTPS.
 
 
@@ -21,7 +21,7 @@ The goal of this project is to provision a server, set up a web server, deploy a
 
 Step-by-Step Documentation
 
-#1. Provisioning the Server
+# 1. Provisioning the Server
 
 Steps:
 Choose a Cloud Provider or Virtualization Platform:
