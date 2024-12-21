@@ -99,16 +99,18 @@ wget https://github.com/onlyfave/AltSchool-Project.git/main.zip
 
 
 3. Installed unzip and extracted the files:
+   
 apt install unzip  
 unzip main.zip
 
-4. Moved the files to Apache’s root directory:
+5. Moved the files to Apache’s root directory:
+   
 cd Alt-School-Project.git-main  
 mv * /var/www/html/  
 cd /var/www/html/  
 ls -lrt
 
-6. Restarted Apache to reflect changes:
+7. Restarted Apache to reflect changes:
 systemctl restart apache2
 
 
