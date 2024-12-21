@@ -62,6 +62,7 @@ Run the following commands:
 sudo apt update && sudo apt upgrade -y
 
 ![Screenshot 2024-12-19 195857](https://github.com/user-attachments/assets/f0b08d7d-f558-40fa-a4ee-9dc6d4d5b5a2)
+
 ![Screenshot 2024-12-19 201010](https://github.com/user-attachments/assets/08f3c289-cd98-410f-a0f9-e9ec08d9f482)
 
 Install Apache Web Server:
@@ -77,6 +78,7 @@ Run:
 sudo systemctl start apache2
 sudo systemctl enable apache2
 ![Screenshot 2024-12-19 201431](https://github.com/user-attachments/assets/422dec00-35e8-4c37-9e01-782df938d07a)
+
 ![Screenshot 2024-12-19 201554](https://github.com/user-attachments/assets/0c70bba4-98a2-4471-9aa1-fc0528f8932c)
 
 
