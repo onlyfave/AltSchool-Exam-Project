@@ -127,7 +127,7 @@ Share the public IP address (or URL if a domain is configured) to access the pag
 Steps:
 Install Certbot:
 Run the following commands to install Certbot for Apache:
-sudo apt install certbot python3-certbot-apache -y
+sudo apt install certbot -y
 ![Screenshot 2024-12-19 204012](https://github.com/user-attachments/assets/9c407623-e427-4feb-83c4-447d2cbd04a3)
 
 sudo certbot --apache
