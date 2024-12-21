@@ -18,12 +18,12 @@ This document details the step-by-step process of provisioning an AWS EC2 server
 
 
 
-Project Objectives
+**Project Objectives**
 The goal of this project is to provision a server, set up a web server, deploy an HTML landing page, and configure the necessary networking settings to make the page publicly accessible. Optional tasks include enabling HTTPS using a free SSL certificate.
 
 Step-by-Step Documentation
 
-1. Provisioning the Server
+**1. Provisioning the Server**
 
 Steps:
 Choose a Cloud Provider or Virtualization Platform:
@@ -31,7 +31,7 @@ Use AWS, GCP, Azure, or a virtualization tool like VirtualBox.
 I chose AWS
 
 
-2. Launch an Instance:
+**2. Launch an Instance:**
 Log in to the AWS Management Console.
 Navigate to EC2 Dashboard and click Launch Instance.
 Choose an Amazon Machine Image (AMI): Select Ubuntu 22.04 LTS.
@@ -53,7 +53,7 @@ Run the following command to connect to the server:
 ![Screenshot 2024-12-19 195857](https://github.com/user-attachments/assets/d8f9be98-574a-49b8-b94e-0f5652f2ff04)
 
 
-2. Web Server Setup
+**2. Web Server Setup**
 
 Steps:
 
@@ -86,7 +86,7 @@ Verify Apache Installation:
 
 Access the default Apache page by visiting http://44.203.122.163 in a browser.
 
-3. HTML Page Deployment
+**3. HTML Page Deployment**
 
 Steps:
 1. Deploying the GitHub Project Files
@@ -113,7 +113,7 @@ systemctl restart apache2
 
 
 
-4. Networking Configuration
+**4. Networking Configuration**
 
 Steps:
 1. Allow HTTP Traffic:
